@@ -1,7 +1,7 @@
 """
 generate_from_url.py
 
-This script is used to generate an app config file from an Obtainium redirect URL.
+This script is used to generate an app config file from an Updatium redirect URL.
 """
 
 from urllib.parse import unquote
@@ -12,14 +12,14 @@ from colorama import Fore, init
 
 init(autoreset=True)
 
-APP_URL_PREFIX = "obtainium://app/"
+APP_URL_PREFIX = "updatium://app/"
 APP_DATA_PATH = "./data/apps/"
 
-def is_obtainium_url(url):
+def is_updatium_url(url):
     """Check if the URL is valid."""
     return APP_URL_PREFIX in url
 
-def extract_json_from_obtainium_url(url):
+def extract_json_from_updatium_url(url):
     """Extract JSON from the URL."""
     raw_json = url.split(APP_URL_PREFIX, 1)[1]
     try:
@@ -33,11 +33,11 @@ def create_new_config():
     url_input = input("Input URL to extract JSON from: ")
     decoded_url = unquote(url_input)
 
-    if not is_obtainium_url(decoded_url):
+    if not is_updatium_url(decoded_url):
         print(Fore.RED + "Invalid URL. Please try again.")
         return
 
-    app_config_json = extract_json_from_obtainium_url(decoded_url)
+    app_config_json = extract_json_from_updatium_url(decoded_url)
 
     if app_config_json is None:
         return
@@ -84,7 +84,7 @@ def update_existing_config():
     """Add an additional config to an existing config file."""
     url_input = unquote(input("Input URL to extract JSON from: "))
 
-    if not is_obtainium_url(url_input):
+    if not is_updatium_url(url_input):
         print(Fore.RED + "Invalid URL. Please try again.")
         return
 
@@ -97,7 +97,7 @@ def update_existing_config():
         print(Fore.RED + f"File {app_file_path} does not exist. Please try creating a new config instead.")
         return
 
-    app_config_json = extract_json_from_obtainium_url(url_input)
+    app_config_json = extract_json_from_updatium_url(url_input)
 
     if app_config_json is None:
         return

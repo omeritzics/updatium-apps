@@ -22,7 +22,7 @@ Before opening a new app request/PR with updates to a config, please read the fo
 5. Only configs from official sources from the app are accepted. This means reupload site (eg. APKPure, APKMirror etc...) configs will NOT be added.
 
 
-If you've gone through the above steps, then you can [open an app request](https://github.com/ImranR98/apps.obtainium.imranr.dev/discussions/new?category=app-requests). Make sure to include at a minimum:
+If you've gone through the above steps, then you can open an app request. Make sure to include at a minimum:
 
 - The link from where you can download the APK.
 - What you have tried to get the app working so far. If you have a working config, consider creating a PR yourself.
@@ -46,7 +46,7 @@ If you've gone through the above steps, then you can open an PR. Keep these thin
 <span id="simple-config"></span>
 ### What is a simple config?
 
-A simple config is an app that you can add by simply pasting the URL of the website and clicking add in Obtainium, without changing any additional settings.
+A simple config is an app that you can add by simply pasting the URL of the website and clicking add in Updatium, without changing any additional settings.
 
 The exception to this is if the URL may be hard to find. For example, the URL which has the links to Signal APKs (https://updates.signal.org/android/latest.json) is not easy to find unless you have knowledge of browser developer tools.
 
@@ -69,7 +69,7 @@ Bevor Sie eine neue App-Anfrage oder einen neuen Pull-Request mit einer neuen Ko
 5. Es werden nur Konfigurationen aus offiziellen Quellen der App akzeptiert. Das bedeutet, dass Konfigurationen von Re-Upload-Seiten (z.B. APKPure, APKMirror usw.) NICHT hinzugefügt werden.
 
 
-Nachdem Sie die oben genannten Punkte überprüft haben, können Sie [eine App-Anfrage eröffnen] (https://github.com/ImranR98/apps.obtainium.imranr.dev/discussions/new?category=app-requests). Stellen Sie sicher, dass Sie mindestens die folgenden Informationen angeben:
+Nachdem Sie die oben genannten Punkte überprüft haben, können Sie [eine App-Anfrage eröffnen] (https://github.com/omeritzics/updatium-apps/discussions/new?category=app-requests). Stellen Sie sicher, dass Sie mindestens die folgenden Informationen angeben:
 
 - Den Link, über den Sie die APK herunterladen können.
 - Was Sie bisher versucht haben, um die App zum Laufen zu bringen. Wenn Sie eine funktionierende Konfiguration haben, sollten Sie selbst einen PR erstellen.
@@ -93,7 +93,7 @@ Nachdem Sie die oben genannten Punkte überprüft haben, können Sie einen PR er
 <span id="simple-config-de"></span>
 ### Was ist eine einfache Konfiguration?
 
-Eine einfache Konfiguration ist eine Anwendung, die Sie einfach durch Einfügen der URL der Website und Klicken auf „Hinzufügen“ in Obtainium hinzufügen können, ohne zusätzliche Einstellungen zu ändern.
+Eine einfache Konfiguration ist eine Anwendung, die Sie einfach durch Einfügen der URL der Website und Klicken auf „Hinzufügen“ in Updatium hinzufügen können, ohne zusätzliche Einstellungen zu ändern.
 
 Davon ausgenommen sind URLs, die möglicherweise schwer zu finden sind. Die URL mit den Links zu den Signal-APKs (https://updates.signal.org/android/latest.json) ist beispielsweise nicht leicht zu finden, es sei denn, Sie verfügen über Kenntnisse der Browser-Entwickler-Tools.
 
@@ -115,7 +115,7 @@ Davon ausgenommen sind URLs, die möglicherweise schwer zu finden sind. Die URL 
 5. 只接受来自应用官方源的配置。这意味着不会添加第三方下载站（如 APKPure、APKMirror 等……）的配置。
 
 
-如果您已完成上述步骤，则可以[打开应用请求](https://github.com/ImranR98/apps.obtainium.imranr.dev/discussions/new?category=app-requests)。请确保至少包含：
+如果您已完成上述步骤，则可以[打开应用请求](https://github.com/omeritzics/updatium-apps/discussions/new?category=app-requests)。请确保至少包含：
 
 - 您可以下载 APK 的链接。
 - 到目前为止，您为使应用正常运行所做的尝试。如果您的配置可以正常运行，请考虑自行创建 PR。
@@ -139,6 +139,6 @@ Davon ausgenommen sind URLs, die möglicherweise schwer zu finden sind. Die URL 
 <span id="simple-config-zh-cn"></span>
 ### 什么是简单配置？
 
-简单配置是指只需粘贴网站链接在 Obtainium 中，无需更改任何其他设置，单击添加即可添加的应用。
+简单配置是指只需粘贴网站链接在 Updatium 中，无需更改任何其他设置，单击添加即可添加的应用。
 
 如果链接难以找到，则属于例外情况。例如，除非您了解浏览器开发工具，否则很难找到包含 [Signal APK](https://updates.signal.org/android/latest.json) 的链接。

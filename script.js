@@ -77,7 +77,7 @@ function reloadWithSelected() {
 }
 
 function getIconHTML(url, name) {
-    const placeholderImage = "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/icon_small.png"
+    const placeholderImage = "https://raw.githubusercontent.com/omeritzics/Updatium/main/assets/graphics/icon_small.png"
     const placeholderStyle = "transform: rotate(0.31rad); opacity: 0.3;"
     const src = url ? url : placeholderImage
     const style = url ? '' : placeholderStyle
@@ -151,8 +151,8 @@ function getAppEntryHTML(appJson, appIndex, allCategories) {
 
                 ${description ? `<p class="subtitle">${description}</p>` : ''}
                 ${firstAppLabelElement || ''}
-                <a class="button is-primary" href="obtainium://app/${encodeURIComponent(getAppConfigString(appJson, 0))}">
-                    ${getString('addToObtainium')}
+                <a class="button is-primary" href="updatium://app/${encodeURIComponent(getAppConfigString(appJson, 0))}">
+                    ${getString('addToUpdatium')}
                 </a>
                 <a class="button is-secondary" href="javascript:void(0);" onclick="copyAppToClipboard('${appIndex}', 0)">
                     ${getString('copyAppConfig')}
@@ -168,8 +168,8 @@ function getAppEntryHTML(appJson, appIndex, allCategories) {
                     <li><div class="is-half is-flex is-align-items-center">
                         <p><code>${cfg.altLabel || new URL(cfg.url).host}</code> - <strong>${cfg.name}</strong></p>
                             <div class="mx-5">
-                                <a class="button is-primary is-small" href="obtainium://app/${encodeURIComponent(getAppConfigString(appJson, ind + 1))}">
-                                    ${getString('addToObtainium')}
+                                <a class="button is-primary is-small" href="updatium://app/${encodeURIComponent(getAppConfigString(appJson, ind + 1))}">
+                                    ${getString('addToUpdatium')}
                                 </a>
                                 <a class="button is-secondary is-small" href="javascript:void(0);" onclick="copyAppToClipboard('${appIndex}', ${ind + 1})">
                                     ${getString('copyAppConfig')}

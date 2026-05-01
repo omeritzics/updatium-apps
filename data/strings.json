@@ -1,19 +1,19 @@
 {
     "title": {
-        "en": "Complex Obtainium Apps",
+        "en": "Complex Updatium Apps",
         "de": "Komplexe Appkonfigurationen",
-        "zh": "Obtainium 复杂包应用配置"
+        "zh": "Updatium 复杂包应用配置"
     },
     "subtitle": {
-        "en": "Crowdsourced \"Hard to Add\" App Configurations for Obtainium",
-        "de": "Von der Gemeinschaft erstellte App-Konfigurationen für Obtainium",
-        "ja": "Obtainiumのためのアプリ設定クラウドソーシング",
-        "zh": "来自社区共享的 Obtainium 众包应用配置"
+        "en": "Crowdsourced \"Hard to Add\" App Configurations for Updatium",
+        "de": "Von der Gemeinschaft erstellte App-Konfigurationen für Updatium",
+        "ja": "Updatiumのためのアプリ設定クラウドソーシング",
+        "zh": "来自社区共享的 Updatium 众包应用配置"
     },
     "siteNote": {
-        "en": "This is not an app store or app discovery site.\nMost Apps can be added easily to Obtainium by pasting the source link directly into Obtainium's \"Add App\" page.\nThis site only provides app configurations that are more complicated and thus difficult to add manually.",
-        "de": "Dies ist kein App-Store und kein Dienst um Apps vorzuschlagen.\nDie meisten Apps können auf einfache Weise zu Obtainium hinzugefügt werden, indem die URL direkt in die Zeile „Quell-URL der App“ im Tab „App hinzufügen“ eingesetzt wird.\nDiese Seite bietet nur App-Konfigurationen an, die komplizierter sind und daher schwer manuell hinzugefügt werden können.",
-        "zh": "这不是应用商店或应用发现站点。\n大多数应用可以通过将源链接直接粘贴到 Obtainium 的“添加应用”页面中以轻松添加到 Obtainium。\n本网站仅提供难以手动添加的更复杂的包应用配置。"
+        "en": "This is not an app store or app discovery site.\nMost Apps can be added easily to Updatium by pasting the source link directly into Updatium's \"Add App\" page.\nThis site only provides app configurations that are more complicated and thus difficult to add manually.",
+        "de": "Dies ist kein App-Store und kein Dienst um Apps vorzuschlagen.\nDie meisten Apps können auf einfache Weise zu Updatium hinzugefügt werden, indem die URL direkt in die Zeile „Quell-URL der App“ im Tab „App hinzufügen“ eingesetzt wird.\nDiese Seite bietet nur App-Konfigurationen an, die komplizierter sind und daher schwer manuell hinzugefügt werden können.",
+        "zh": "这不是应用商店或应用发现站点。\n大多数应用可以通过将源链接直接粘贴到 Updatium 的“添加应用”页面中以轻松添加到 Updatium。\n本网站仅提供难以手动添加的更复杂的包应用配置。"
     },
     "categorySelect": {
         "en": "Select App Categories",
@@ -42,11 +42,11 @@
     "apkVerification": {
         "en": "Show apk signature page"
     },
-    "addToObtainium": {
-        "en": "Add to Obtainium",
+    "addToUpdatium": {
+        "en": "Add to Updatium",
         "de": "App hinzufügen",
-        "ja": "Obtainiumに追加",
-        "zh": "添加到 Obtainium"
+        "ja": "Updatiumに追加",
+        "zh": "添加到 Updatium"
     },
     "copyAppConfig": {
         "en": "Copy App Config to Clipboard",
