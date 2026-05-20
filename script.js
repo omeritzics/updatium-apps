@@ -236,7 +236,7 @@ async function fetchAsync(url) {
 }
 
 window.addEventListener('load', () => {
-    fetchAsync(`/data.json?rand=${Math.random() * 10000}`) // Prevent caching of this file
+    fetchAsync(`data.json?rand=${Math.random() * 10000}`) // Prevent caching of this file
         .then((d) => {
             data = d
             render()
