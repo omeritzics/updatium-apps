@@ -234,3 +234,14 @@ async function fetchAsync(url) {
     let data = await response.json()
     return data
 }
+
+window.addEventListener('load', () => {
+    fetchAsync(`data.json`)
+        .then((d) => {
+            data = d
+            render()
+        }).catch((err) => {
+            console.error(err)
+            alert('Error! See console for details.')
+        })
+})
