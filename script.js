@@ -236,7 +236,7 @@ async function fetchAsync(url) {
 }
 
 window.addEventListener('load', () => {
-    fetchAsync(`data.json`)
+    fetchAsync(`/data.json?rand=${Math.random() * 10000}`)
         .then((d) => {
             data = d
             render()
